@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Races]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(200) NOT NULL,
+	[Distance] FLOAT NOT NULL,
+    [VehicleType] INT NOT NULL, 
+    [Winner] NVARCHAR(200) NOT NULL, 
+    [EndedAt] DATETIME NOT NULL, 
+)

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceOrganizing.ApiGateway", "RaceOrganizing\RaceOrganizing.ApiGateway.csproj", "{FBF6054B-E687-4E53-A7A7-45179371B468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Races", "Races", "{B1E95198-D799-415D-A73A-3F50FA6C06FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceOrganizing.Races.Abstractions", "RaceOrganizing.Races.Abstractions\RaceOrganizing.Races.Abstractions.csproj", "{9BC18293-CAD5-4FAC-AB75-7E44E8C514E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceOrganizing.Races.ApiGateway", "RaceOrganizing.Races.ApiGateway\RaceOrganizing.Races.ApiGateway.csproj", "{DF1EC591-D6CC-453F-A432-10CC0B5249EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceOrganizing.Races", "RaceOrganizing.Races\RaceOrganizing.Races.csproj", "{54C12FF9-ABEE-4905-96F5-473E5FD24977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceOrganizing.Sql", "ClassLibrary2\RaceOrganizing.Sql.csproj", "{8E2BCCFB-2B70-4283-853A-D6F2AD15CFF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBF6054B-E687-4E53-A7A7-45179371B468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF6054B-E687-4E53-A7A7-45179371B468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF6054B-E687-4E53-A7A7-45179371B468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF6054B-E687-4E53-A7A7-45179371B468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC18293-CAD5-4FAC-AB75-7E44E8C514E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC18293-CAD5-4FAC-AB75-7E44E8C514E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC18293-CAD5-4FAC-AB75-7E44E8C514E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC18293-CAD5-4FAC-AB75-7E44E8C514E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1EC591-D6CC-453F-A432-10CC0B5249EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1EC591-D6CC-453F-A432-10CC0B5249EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1EC591-D6CC-453F-A432-10CC0B5249EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1EC591-D6CC-453F-A432-10CC0B5249EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C12FF9-ABEE-4905-96F5-473E5FD24977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C12FF9-ABEE-4905-96F5-473E5FD24977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C12FF9-ABEE-4905-96F5-473E5FD24977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C12FF9-ABEE-4905-96F5-473E5FD24977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2BCCFB-2B70-4283-853A-D6F2AD15CFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2BCCFB-2B70-4283-853A-D6F2AD15CFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2BCCFB-2B70-4283-853A-D6F2AD15CFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2BCCFB-2B70-4283-853A-D6F2AD15CFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BC18293-CAD5-4FAC-AB75-7E44E8C514E7} = {B1E95198-D799-415D-A73A-3F50FA6C06FF}
+		{DF1EC591-D6CC-453F-A432-10CC0B5249EB} = {B1E95198-D799-415D-A73A-3F50FA6C06FF}
+		{54C12FF9-ABEE-4905-96F5-473E5FD24977} = {B1E95198-D799-415D-A73A-3F50FA6C06FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F89D6221-B32D-4F85-A4FA-132D78D7A2B2}
+	EndGlobalSection
+EndGlobal
